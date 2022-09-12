@@ -1,0 +1,16 @@
+.section {
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: gray;
+}
+
+.section > h4 {
+    padding-left: 15px;
+}
+
+.section--selected {
+    border-bottom: 2px solid red !important;
+    color: red !important;
+}
